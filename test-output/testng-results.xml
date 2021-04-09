@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting test=> tryToCreateNewAccountWithRegisteredEmail]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => tryToCreateNewAccountWithRegisteredEmail]]>
+    </line>
+    <line>
+      <![CDATA[Starting test=> searchingForProductAndAddItToCart]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => searchingForProductAndAddItToCart]]>
+    </line>
+    <line>
+      <![CDATA[Starting test=> signInToNewAccount]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => signInToNewAccount]]>
+    </line>
+    <line>
+      <![CDATA[Starting test=> selectFromCategoryAndCheckPrice]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => selectFromCategoryAndCheckPrice]]>
+    </line>
+    <line>
+      <![CDATA[You are at Computer & Laptop Accessories | Kmart webpage]]>
+    </line>
+    <line>
+      <![CDATA[Starting test=> findStoreLocationAndPhoneNumber]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => findStoreLocationAndPhoneNumber]]>
+    </line>
+    <line>
+      <![CDATA[Starting test => testingRandomCategories]]>
+    </line>
+    <line>
+      <![CDATA[Selected main category: //a[@id='level1a_women']]]>
+    </line>
+    <line>
+      <![CDATA[Final selected option: View all Womens Dresses]]>
+    </line>
+    <line>
+      <![CDATA[Expected Title: View all Womens Dresses
+Actual Title: Women's dresses]]>
+    </line>
+    <line>
+      <![CDATA[Ending test   => testingRandomCategories]]>
+    </line>
+    <line>
+      <![CDATA[Starting test=> Test_Scroll_Window]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => Test_Scroll_Window]]>
+    </line>
+    <line>
+      <![CDATA[Starting test=> Filter]]>
+    </line>
+    <line>
+      <![CDATA[Ending test  => Filter]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-10T21:02:20 AEST" name="Default suite" finished-at="2020-06-10T21:06:29 AEST" duration-ms="248529">
+    <groups>
+    </groups>
+    <test started-at="2020-06-10T21:02:20 AEST" name="Default test" finished-at="2020-06-10T21:06:29 AEST" duration-ms="248529">
+      <class name="newpackage.KmartTestNG">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:02:20 AEST" name="beforeClass" finished-at="2020-06-10T21:02:26 AEST" duration-ms="5784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:02:26 AEST" name="beforeMethod" finished-at="2020-06-10T21:02:34 AEST" duration-ms="8001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tryToCreateNewAccountWithRegisteredEmail()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:02:34 AEST" name="tryToCreateNewAccountWithRegisteredEmail" finished-at="2020-06-10T21:03:08 AEST" duration-ms="34528" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> tryToCreateNewAccountWithRegisteredEmail]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => tryToCreateNewAccountWithRegisteredEmail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tryToCreateNewAccountWithRegisteredEmail -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:03:08 AEST" name="beforeMethod" finished-at="2020-06-10T21:03:11 AEST" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchingForProductAndAddItToCart()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:03:11 AEST" name="searchingForProductAndAddItToCart" finished-at="2020-06-10T21:03:39 AEST" depends-on-methods="newpackage.KmartTestNG.tryToCreateNewAccountWithRegisteredEmail" duration-ms="28323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> searchingForProductAndAddItToCart]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => searchingForProductAndAddItToCart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchingForProductAndAddItToCart -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:03:39 AEST" name="beforeMethod" finished-at="2020-06-10T21:03:42 AEST" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signInToNewAccount()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:03:42 AEST" name="signInToNewAccount" finished-at="2020-06-10T21:03:50 AEST" depends-on-methods="newpackage.KmartTestNG.searchingForProductAndAddItToCart" duration-ms="8134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> signInToNewAccount]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => signInToNewAccount]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signInToNewAccount -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:03:50 AEST" name="beforeMethod" finished-at="2020-06-10T21:03:52 AEST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectFromCategoryAndCheckPrice()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:03:52 AEST" name="selectFromCategoryAndCheckPrice" finished-at="2020-06-10T21:04:07 AEST" depends-on-methods="newpackage.KmartTestNG.signInToNewAccount" duration-ms="14297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> selectFromCategoryAndCheckPrice]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => selectFromCategoryAndCheckPrice]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectFromCategoryAndCheckPrice -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:07 AEST" name="beforeMethod" finished-at="2020-06-10T21:04:09 AEST" duration-ms="2618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testingTheWebsiteLinkToSpecificCategory()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:09 AEST" name="testingTheWebsiteLinkToSpecificCategory" finished-at="2020-06-10T21:04:16 AEST" depends-on-methods="newpackage.KmartTestNG.selectFromCategoryAndCheckPrice" duration-ms="6864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[You are at Computer & Laptop Accessories | Kmart webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testingTheWebsiteLinkToSpecificCategory -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:16 AEST" name="beforeMethod" finished-at="2020-06-10T21:04:19 AEST" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="findStoreLocationAndPhoneNumber()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:19 AEST" name="findStoreLocationAndPhoneNumber" finished-at="2020-06-10T21:04:29 AEST" depends-on-methods="newpackage.KmartTestNG.testingTheWebsiteLinkToSpecificCategory" duration-ms="10626" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> findStoreLocationAndPhoneNumber]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => findStoreLocationAndPhoneNumber]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findStoreLocationAndPhoneNumber -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:29 AEST" name="beforeMethod" finished-at="2020-06-10T21:04:32 AEST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testingRandomCategories()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:32 AEST" name="testingRandomCategories" finished-at="2020-06-10T21:04:42 AEST" depends-on-methods="newpackage.KmartTestNG.findStoreLocationAndPhoneNumber" duration-ms="10404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test => testingRandomCategories]]>
+            </line>
+            <line>
+              <![CDATA[Selected main category: //a[@id='level1a_women']]]>
+            </line>
+            <line>
+              <![CDATA[Final selected option: View all Womens Dresses]]>
+            </line>
+            <line>
+              <![CDATA[Expected Title: View all Womens Dresses
+Actual Title: Women's dresses]]>
+            </line>
+            <line>
+              <![CDATA[Ending test   => testingRandomCategories]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testingRandomCategories -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:42 AEST" name="beforeMethod" finished-at="2020-06-10T21:04:45 AEST" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test_Scroll_Window()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:45 AEST" name="Test_Scroll_Window" finished-at="2020-06-10T21:04:53 AEST" depends-on-methods="newpackage.KmartTestNG.testingRandomCategories" duration-ms="8075" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> Test_Scroll_Window]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => Test_Scroll_Window]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Scroll_Window -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:53 AEST" name="beforeMethod" finished-at="2020-06-10T21:04:56 AEST" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Filter()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:04:56 AEST" name="Filter" finished-at="2020-06-10T21:06:26 AEST" depends-on-methods="newpackage.KmartTestNG.Test_Scroll_Window" duration-ms="90738" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting test=> Filter]]>
+            </line>
+            <line>
+              <![CDATA[Ending test  => Filter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Filter -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:newpackage.KmartTestNG@2fd6b6c7]" started-at="2020-06-10T21:06:26 AEST" name="afterClass" finished-at="2020-06-10T21:06:29 AEST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- newpackage.KmartTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
